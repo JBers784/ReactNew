@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/Images/logo.svg';
+import './assets/css/App.css';
+import MiComponente from './componentes/MiComponente';
 
 function App() {
   return (
@@ -7,19 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+         Mi primera Aplicación de React
+        </p>   
+        <MiComponente/> 
       </header>
     </div>
   );
-}
+  }
 
 export default App;
